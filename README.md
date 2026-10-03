@@ -2,7 +2,7 @@
 
 ***@author vlestat***
 
-*My Hyprland Setup dotfiles :3**
+*My Hyprland Setup dotfiles :3*
 
 ***( Made in Cachyos )***
 
