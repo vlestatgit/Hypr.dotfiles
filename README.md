@@ -4,6 +4,12 @@
 
 *My Hyprland Setup dotfiles :3*
 
+**OBS : **
+
+This Setup was build on a minimal installation of CachyOS.
+
+Check packages.txt to see all the manually installed packages
+
 ***( Made in Cachyos )***
 
 ```
