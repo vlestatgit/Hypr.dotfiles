@@ -8,7 +8,7 @@
 
 This Setup was build on a minimal installation of CachyOS.
 
-Check packages.txt to see all the manually installed packages
+Check packages.txt to see more information
 
 ***( Made in Cachyos )***
 
