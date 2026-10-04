@@ -7,14 +7,22 @@
 *Install :*
 
 Hyprland
+
 Hyprpaper
+
 Kitty
+
 Fasfetch
+
 Waybar
+
 Rofi
+
 Nautilus
 
-NwgLook
+
+Nwg Look
+
 Catppuccin Mocha GTK Theme
 
 ***( Made in Cachyos )***
