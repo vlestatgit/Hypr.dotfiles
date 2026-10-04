@@ -15,20 +15,21 @@ I'm not native, sorry about my english :3
 
 -------- Manualy Installed -------- >
 
-yay
-hyprland
-waybar
-kitty
-rofi
+brave-bin
 brightnessctl
-nautilus
 catppuccin-gtk-theme-mocha
-yaru-icon-theme
-ttf-jetbrains-mono-nerd
-nwg-look
-snappy-switcher
 cava
 cmatrix-git
+hyprland
+hyprpaper
+kitty
+nautilus
+nwg-look
+rofi
+snappy-switcher
+ttf-jetbrains-mono-nerd
 tty-clock
-brave-bin
+waybar
+yaru-icon-theme
+yay
 
