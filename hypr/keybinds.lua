@@ -9,8 +9,9 @@ local browser     = "brave"
 
 -------- Shortcuts -------- > 
 
-local super = "SUPER"
-local fn    = "code:135"
+local super      = "SUPER"
+local fn         = "code:135"
+local screenshot = "code:107"
 
 hl.bind(super .. " + C", hl.dsp.window.close())
 
@@ -18,6 +19,8 @@ hl.bind(super .. " + RETURN", hl.dsp.exec_cmd(terminal))
 hl.bind(super .. " + E", hl.dsp.exec_cmd(fileManager))
 hl.bind(super .. " + B", hl.dsp.exec_cmd(browser))
 hl.bind(super .. " + SPACE", hl.dsp.exec_cmd(menu))
+
+hl.bind(screenshot .. "", hl.dsp.exec_cmd("hyprshot -m region -o ~/Imagens/$(screenshot.png)"))
 
 hl.bind(super .. " + DELETE", hl.dsp.exec_cmd("hyprlock"))
 
