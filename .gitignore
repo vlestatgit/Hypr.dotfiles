@@ -6,13 +6,13 @@
 
 !packages.txt
 
-!fastfetch/
-!hypr/
-!hyprpaper/
-!kitty/
-!nwg-look/
-!rofi/
-!snappy-switcher/
-!waybar/
-!xsettingsd/
+!fastfetch/**
+!hypr/**
+!hyprpaper/**
+!kitty/**
+!nwg-look/**
+!rofi/**
+!snappy-switcher/**
+!waybar/**
+!xsettingsd/**
 
