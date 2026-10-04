@@ -4,6 +4,19 @@
 
 *My Hyprland Setup dotfiles :3*
 
+*Install :*
+
+Hyprland
+Hyprpaper
+Kitty
+Fasfetch
+Waybar
+Rofi
+Nautilus
+
+NwgLook
+Catppuccin Mocha GTK Theme
+
 ***( Made in Cachyos )***
 
 ```
