@@ -5,6 +5,7 @@
 !.gitignore
 
 !packages.txt
+!README.md
 
 !fastfetch/**
 !hypr/**
