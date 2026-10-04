@@ -1,0 +1,34 @@
+---------------- Packages ---------------- >
+
+
+For full compatibility with this setup i recommend to
+mark the following packages on the CachyOS intallation
+
+CachyOS Packages
+CachyOS shell configuration
+Base-devel + Common packages
+
+Choose "No Desktop Envyroment" too
+
+I'm not native, sorry about my english :3
+
+
+-------- Manualy Installed -------- >
+
+yay
+hyprland
+waybar
+kitty
+rofi
+brightnessctl
+nautilus
+catppuccin-gtk-theme-mocha
+yaru-icon-theme
+ttf-jetbrains-mono-nerd
+nwg-look
+snappy-switcher
+cava
+cmatrix-git
+tty-clock
+brave-bin
+
