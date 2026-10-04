@@ -68,13 +68,7 @@
     },
     
     {
-      "type"     : "custom",
-      "key"      : "│  󰢮 gpu    ",
-      "keyColor" : "blue"
-    },
-
-    {
-      "type"     : "custom",
+      "type"     : "gpu",
       "key"      : "│  󰢮 gpu    ",
       "keyColor" : "blue"
     },

@@ -2,25 +2,27 @@
 
 * {
 
-    font-family : JetBrainsMono Nerd Font;
+    font-family : JetBrainsMono Nerd Font; /* Your font */
     font-size   : 14px;
 
 }
 
 window#waybar {
 
-    background    : rgba(30, 30, 46, 0.8);
-    color         : #ffffff;
+    background    : rgba(30, 30, 46, 0.8); /* Background color */
+    color         : #ffffff;               /* Text color */
 
-    border        : none;
-    border-radius : 0;
+    border        : none; /* Border */
+    border-radius : 0;    /* Border corners */
 
 }
 
 #custom-arch {
 
-    font-family  : "Symbols Nerd Font", "Symbols Nerd Font Mono";
-    font-size    : 16px;
+    font-family  : "Symbols Nerd Font", "Symbols Nerd Font Mono"; /* Logo font */
+    font-size    : 16px; /* Logo size */
+
+    /* Logo margins */
 
     margin-left  : 12px;
     margin-right : 24px;
@@ -32,18 +34,18 @@ window#waybar {
 #workspaces button {
 
     background : transparent;
-    color      : rgba(255, 255, 255, 0.55);
+    color      : rgba(255, 255, 255, 0.55); /* Inactive workspaces color */
 
-    border     : none;
+    border     : none; /* workspaces borders */
     box-shadow : none;
 
-    padding   : 0 6px;
+    padding   : 0 6px; /* Gaps between workspaces */
     min-width : 16px;
     margin    : 0px 0 0 0;
 
 }
 
-#workspaces button.active { color : #ffffff; }
+#workspaces button.active { color : #ffffff; } /* Active workspace color */
 
 #workspaces button:hover {
 
@@ -53,7 +55,7 @@ window#waybar {
 
 }
 
-#clock { padding : 0 16px; }
+#clock { padding : 0 16px; } /* Gaps between clock and date */
 
 #network,
 #bluetooth,
@@ -64,14 +66,14 @@ window#waybar {
 #battery {
 
     padding : 0 10px;
-    color   : rgba(255, 255, 255, 1);
+    color   : rgba(255, 255, 255, 1); /* Default battery color */
 
 }
 
-#network.disconnected { color : rgba(255, 255, 255, 0.5); }
+#network.disconnected { color : rgba(255, 255, 255, 0.5); } /* Disconnected network color */
 
-#battery.critical { color : rgba(255, 255, 255, 0.5); }
+#battery.critical { color : rgba(255, 255, 255, 0.5); } /* Critical battery color */
 
-#battery.warning { color : rgba(255, 255, 255, 0.75); }
+#battery.warning { color : rgba(255, 255, 255, 0.75); } /* Warning battery color */
 
-#battery.charging { color : rgba(255, 255, 255, 1); }
+#battery.charging { color : rgba(255, 255, 255, 1); } /* Charging battery color */

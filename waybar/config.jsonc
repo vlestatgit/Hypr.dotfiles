@@ -2,19 +2,19 @@
 
 {
 
-    "layer"  : "top",
-    "height" : 32,
+    "layer"  : "top", // Layer of the bar
+    "height" : 32,    // Height of the bar
 
-    "modules-left"   : [
+    "modules-left"   : [ // Left side modules
 
         "custom/arch",
         "hyprland/workspaces"
     
     ],
 
-    "modules-center" : [ "clock" ],
+    "modules-center" : [ "clock" ], // Center modules
 
-    "modules-right"  : [
+    "modules-right"  : [ // Right side modules
         
         "network",
         "bluetooth",
@@ -24,9 +24,11 @@
     
     ],
 
+    // Remove ""tooltip" : false" if you want to enable tooltips for all modules
+
     "custom/arch" : {
 
-        "exec"     : "echo ''",
+        "exec"     : "echo ''", // Your OS Logo
         "format"   : "{}",
         "interval" : "once",
 
@@ -42,7 +44,7 @@
 
     },
 
-    "clock" : { "format" : "󰥔  {:%a %d %b  %H:%M}" },
+    "clock" : { "format" : "󰥔  {:%a %d %b  %H:%M}" }, // Your clock format
 
     "network" : {
 
@@ -58,7 +60,7 @@
 
 	    "format"           : "",
 	    "format-disabled"  : "",
-	    "format-connected" : " {num_connections} connected",
+	    "format-connected" : " {num_connections} connected", // Remove "{num_connections} connected" to show only the icon
 
         "tooltip"  : false
 
@@ -66,10 +68,12 @@
 
     "pulseaudio" : {
 
-        "format"       : "{icon} {volume}%",
+        "format"       : "{icon} {volume}%", // Remove "{volume}%" to show only the icon
         "format-icons" : { "default" : [ "󰕿", "󰖀", "󰕾" ] },
 
         "scroll-step" : 1,
+
+        // Remove the following lines if you don't want to change volume with mouse scroll
 
         "on-scroll-up"   : "pactl set-sink-volume @DEFAULT_SINK@ +5% && [ $(pactl get-sink-volume @DEFAULT_SINK@ | grep -Po '[0-9]+(?=%)' | head -n1) -gt 100 ] && pactl set-sink-volume @DEFAULT_SINK@ 100%",
         "on-scroll-down" : "pactl set-sink-volume @DEFAULT_SINK@ -5%",
@@ -78,14 +82,18 @@
 
     },
 
+    // (Only laptops usually have the next modules, remove them if it isn't your case)
+
     "backlight" : {
 
-        "device" : "intel_backlight",
+        "device" : "intel_backlight", // Your device name
 
-        "format"       : "{icon} {percent}%",
+        "format"       : "{icon} {percent}%", // Remove "{percent}%" to show only the icon
         "format-icons" : [ "󰃞", "󰃟", "󰃠" ],
 
         "scroll-step" : 1,
+
+        // Remove the following lines if you don't want to change brightness with mouse scroll
 
         "on-scroll-up"   : "brightnessctl set +5%",
         "on-scroll-down" : "BRG=$(brightnessctl -m | cut -d, -f4 | tr -d '%'); [ \"$BRG\" -gt 5 ] && brightnessctl set 5%-",

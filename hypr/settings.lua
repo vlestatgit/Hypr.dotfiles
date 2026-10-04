@@ -24,7 +24,7 @@ hl.monitor({
 
 hl.config({
 
-    input = { kb_layout  = "br", },
+    input = { kb_layout  = "br", }, -- Your keyboard layout
 
     dwindle = { preserve_split = true, },
 

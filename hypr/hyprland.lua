@@ -8,4 +8,4 @@ require("startup")
 require("visuals")
 require("rules")
 
-
+-- You can change GTK apps themes with NWG Look

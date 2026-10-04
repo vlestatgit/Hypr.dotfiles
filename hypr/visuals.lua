@@ -4,8 +4,8 @@ hl.config({
 
     general = {
 
-        gaps_in  = 2,
-        gaps_out = 4,
+        gaps_in  = 2, -- Gaps between windows
+        gaps_out = 4, -- Gaps between screen edges
 
         border_size = 0,
 
@@ -15,8 +15,8 @@ hl.config({
 
     decoration = {
 
-        rounding       = 4,
-        rounding_power = 2,
+        rounding       = 4, -- Corner rounding
+        rounding_power = 2, -- Increase this for more "circular" corners
 
         active_opacity   = 0.875,
         inactive_opacity = 0.875,
@@ -25,7 +25,7 @@ hl.config({
 
             enabled   = true,
 
-            size      = 1,
+            size      = 1, -- Increase this for more blur
             passes    = 2,
 
             vibrancy  = 0.2,
@@ -38,7 +38,7 @@ hl.config({
     
 })
 
--- https://cubic-bezier.com/
+-- https://cubic-bezier.com/ Use this website to generate your bezier curves
 
 hl.curve("easeOutQuint",   { type = "bezier", points = { {0.23, 1},    {0.32, 1}    } })
 hl.curve("easeInOutCubic", { type = "bezier", points = { {0.65, 0.05}, {0.36, 1}    } })
