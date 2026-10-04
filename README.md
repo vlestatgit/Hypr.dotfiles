@@ -4,7 +4,7 @@
 
 *My Hyprland Setup dotfiles :3*
 
-**OBS : **
+***OBS :***
 
 This Setup was build on a minimal installation of CachyOS.
 
