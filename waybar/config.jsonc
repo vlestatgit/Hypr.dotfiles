@@ -1,0 +1,118 @@
+// ---------------- Waybar ---------------- >
+
+{
+
+    "layer"  : "top",
+    "height" : 32,
+
+    "modules-left"   : [
+
+        "custom/arch",
+        "hyprland/workspaces"
+    
+    ],
+
+    "modules-center" : [ "clock" ],
+
+    "modules-right"  : [
+        
+        "network",
+        "bluetooth",
+        "pulseaudio",
+        "backlight",
+        "battery"
+    
+    ],
+
+    "custom/arch" : {
+
+        "exec"     : "echo ''",
+        "format"   : "{}",
+        "interval" : "once",
+
+        "tooltip"  : false
+
+    },
+
+    "hyprland/workspaces" : {
+
+        "format" : "{id}",
+
+        "persistent-workspaces" : { "*": 5 }
+
+    },
+
+    "clock" : { "format" : "󰥔  {:%a %d %b  %H:%M}" },
+
+    "network" : {
+
+        "format-wifi"         : "󰤨",
+        "format-ethernet"     : "󰈀",
+        "format-disconnected" : "󰤭",
+
+        "tooltip"  : false
+
+    },
+
+    "bluetooth" : {
+
+	    "format"           : "",
+	    "format-disabled"  : "",
+	    "format-connected" : " {num_connections} connected",
+
+        "tooltip"  : false
+
+    },
+
+    "pulseaudio" : {
+
+        "format"       : "{icon} {volume}%",
+        "format-icons" : { "default" : [ "󰕿", "󰖀", "󰕾" ] },
+
+        "scroll-step" : 1,
+
+        "on-scroll-up"   : "pactl set-sink-volume @DEFAULT_SINK@ +5% && [ $(pactl get-sink-volume @DEFAULT_SINK@ | grep -Po '[0-9]+(?=%)' | head -n1) -gt 100 ] && pactl set-sink-volume @DEFAULT_SINK@ 100%",
+        "on-scroll-down" : "pactl set-sink-volume @DEFAULT_SINK@ -5%",
+
+        "tooltip"  : false
+
+    },
+
+    "backlight" : {
+
+        "device" : "intel_backlight",
+
+        "format"       : "{icon} {percent}%",
+        "format-icons" : [ "󰃞", "󰃟", "󰃠" ],
+
+        "scroll-step" : 1,
+
+        "on-scroll-up"   : "brightnessctl set +5%",
+        "on-scroll-down" : "BRG=$(brightnessctl -m | cut -d, -f4 | tr -d '%'); [ \"$BRG\" -gt 5 ] && brightnessctl set 5%-",
+
+        "tooltip"  : false
+
+    },
+
+    "battery" : {
+
+        "states" : {
+
+            "warning"  : 50,
+            "critical" : 25
+            
+        },
+
+        "format"          : "{icon} {capacity}%",
+
+        "format-charging" : "󰂄 {capacity}%",
+        "format-plugged"  : "󰂄 {capacity}%",
+
+        "format-icons"    : [ "󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹" ],
+
+        "tooltip"  : false
+        
+    }
+    
+}
+

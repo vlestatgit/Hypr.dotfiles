@@ -1,0 +1,119 @@
+configuration {
+  show-icons: true;
+  drun-display-format: "{name}";
+  font: "JetBrainsMono Nerd Font 12";
+}
+
+* {
+  background: #1E1E2ECC;
+  background-alt: #313244CC;
+  foreground: #CDD6F4;
+
+  normal-background: #00000000;
+  normal-foreground: #CDD6F4;
+
+  alternate-normal-background: #00000000;
+  alternate-normal-foreground: #CDD6F4;
+
+  urgent-background: #00000000;
+  urgent-foreground: #CDD6F4;
+
+  active-background: #00000000;
+  active-foreground: #CDD6F4;
+
+  selected-normal-background: #313244CC;
+  selected-normal-foreground: #CDD6F4;
+
+  selected-urgent-background: #313244CC;
+  selected-urgent-foreground: #CDD6F4;
+
+  selected-active-background: #313244CC;
+  selected-active-foreground: #CDD6F4;
+
+  alternate-urgent-background: #00000000;
+  alternate-urgent-foreground: #CDD6F4;
+
+  alternate-active-background: #00000000;
+  alternate-active-foreground: #CDD6F4;
+
+  red: #CDD6F4;
+  blue: #89B4FA;
+  lightbg: #00000000;
+
+  spacing: 4px;
+  border-color: #00000000;
+  separatorcolor: #00000000;
+}
+
+window {
+  width: 600px;
+  border: 0px;
+  border-radius: 8px;
+  padding: 12px;
+  background-color: #1E1E2ECC;
+}
+
+mainbox {
+  spacing: 8px;
+  children: [ inputbar, listview ];
+  background-color: #00000000;
+}
+
+inputbar {
+  padding: 10px 14px;
+  border-radius: 4px;
+  children: [ entry ];
+  background-color: #00000000;
+}
+
+prompt {
+  text-color: #89B4FA;
+  background-color: #00000000;
+}
+
+entry {
+  text-color: #CDD6F4;
+  placeholder: "Search";
+  placeholder-color: #6C7086;
+  background-color: #00000000;
+}
+
+listview {
+  lines: 6;
+  columns: 1;
+  spacing: 4px;
+  background-color: #00000000;
+  scrollbar: false;
+}
+
+element {
+  padding: 10px 12px;
+  border: 0px;
+  border-radius: 4px;
+  background-color: #00000000;
+}
+
+element normal.normal {
+  background-color: #00000000;
+  text-color: #CDD6F4;
+}
+
+element alternate.normal {
+  background-color: #00000000;
+  text-color: #CDD6F4;
+}
+
+element selected.normal {
+  background-color: #31324480;
+  text-color: #CDD6F4;
+}
+
+element-text {
+  background-color: #00000000;
+  text-color: #CDD6F4;
+}
+
+element-icon {
+  background-color: #00000000;
+  size: 24px;
+}

@@ -1,0 +1,77 @@
+/* ---------------- Waybar Style ---------------- > */
+
+* {
+
+    font-family : JetBrainsMono Nerd Font;
+    font-size   : 14px;
+
+}
+
+window#waybar {
+
+    background    : rgba(30, 30, 46, 0.8);
+    color         : #ffffff;
+
+    border        : none;
+    border-radius : 0;
+
+}
+
+#custom-arch {
+
+    font-family  : "Symbols Nerd Font", "Symbols Nerd Font Mono";
+    font-size    : 16px;
+
+    margin-left  : 12px;
+    margin-right : 24px;
+
+}
+
+#workspaces { margin-right : 16px; }
+
+#workspaces button {
+
+    background : transparent;
+    color      : rgba(255, 255, 255, 0.55);
+
+    border     : none;
+    box-shadow : none;
+
+    padding   : 0 6px;
+    min-width : 16px;
+    margin    : 0px 0 0 0;
+
+}
+
+#workspaces button.active { color : #ffffff; }
+
+#workspaces button:hover {
+
+    background : transparent;
+    box-shadow : none;
+    color      : #ffffff;
+
+}
+
+#clock { padding : 0 16px; }
+
+#network,
+#bluetooth,
+#pulseaudio,
+#backlight,
+#power-profiles-daemon,
+
+#battery {
+
+    padding : 0 10px;
+    color   : rgba(255, 255, 255, 1);
+
+}
+
+#network.disconnected { color : rgba(255, 255, 255, 0.5); }
+
+#battery.critical { color : rgba(255, 255, 255, 0.5); }
+
+#battery.warning { color : rgba(255, 255, 255, 0.75); }
+
+#battery.charging { color : rgba(255, 255, 255, 1); }
