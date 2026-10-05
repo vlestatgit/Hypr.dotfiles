@@ -8,10 +8,12 @@ CachyOS Packages
 CachyOS shell configuration
 Base-devel + Common packages
 
-Choose "No Desktop Envyroment" too
+No Desktop Envyroment
 
-I'm not native, sorry about my english :3
+Notice that this was built on a laptop and many
+features will require changes from device to device.
 
+Sorry about my english, i'm not a native :3
 
 -------- Manualy Installed -------- >
 
