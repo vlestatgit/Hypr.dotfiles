@@ -67,7 +67,7 @@ inputbar {
 }
 
 prompt {
-  text-color: #89B4FA;
+  text-color: #6C7086;
   background-color: #00000000;
 }
 
