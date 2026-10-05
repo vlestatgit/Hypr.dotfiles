@@ -24,7 +24,7 @@ hl.bind(super .. " + ESCAPE", hl.dsp.exec_cmd(menu))     -- Open Menu
 
 hl.bind(screenshot .. "", hl.dsp.exec_cmd("hyprshot -m region -o ~/Imagens/$(screenshot.png)")) -- Screenshot
 
-hl.bind(super .. " + DELETE", hl.dsp.exec_cmd("hyprlock")) -- Lock Screen
+hl.bind(super .. " + DELETE", hl.dsp.exec_cmd("~/.config/rofi/menu/system/energy.sh")) -- Lock Screen
 
 -- Volume and Brightness
 
