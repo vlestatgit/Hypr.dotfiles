@@ -27,7 +27,7 @@ case "$option" in
     " VS Code")        code;;
     " IntelliJ IDEA")  idea;;
     " Minecraft XMCL") xmcl;;
-    " Roblox")         roblox;;
+    " Roblox")         flatpak run org.vinegarhq.Sober;;
 
 esac
 
