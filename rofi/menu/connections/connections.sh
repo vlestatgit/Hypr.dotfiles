@@ -2,7 +2,7 @@
 
 option=$(
     
-    printf "  Wifi\n󰂯  Bluetooth" | #Add your menu options here ("Option1\nOption2\nOption3...")
+    printf "󰤨  Wifi\n󰂯  Bluetooth" | #Add your menu options here ("Option1\nOption2\nOption3...")
     
     rofi -dmenu -p "" -theme ~/.config/rofi/mocha.rasi
     
@@ -10,7 +10,7 @@ option=$(
 
 case "$option" in
 
-    "  Wifi")      ~/.config/rofi/menu/connections/wifi.sh;;
-    "󰂯  Bluetooth") ;;
+    "󰤨  Wifi")      ~/.config/rofi/menu/connections/wifi.sh;;
+    "󰂯  Bluetooth") ~/.config/rofi/menu/connections/bluetooth.sh;;
 
 esac

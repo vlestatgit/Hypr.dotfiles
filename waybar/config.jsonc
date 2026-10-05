@@ -54,6 +54,10 @@
         "format-wifi"         : "󰤨",
         "format-ethernet"     : "󰈀",
         "format-disconnected" : "󰤭",
+        "format-disabled"     : "",
+
+        "on-click"       : "$HOME/.config/rofi/menu/connections/wifi.sh",
+        "on-click-right" : "nmcli radio wifi | grep -q 'enabled' && nmcli radio wifi off || nmcli radio wifi on",
 
         "tooltip"  : false
 
@@ -62,8 +66,11 @@
     "bluetooth" : {
 
 	    "format"           : "",
-	    "format-disabled"  : "󰂲",
-	    "format-connected" : "",
+        "format-off"       : "󰂲",
+	    "format-connected" : "",
+
+        "on-click"       : "$HOME/.config/rofi/menu/connections/bluetooth.sh",
+        "on-click-right" : "bluetoothctl show | grep -q 'Powered: yes' && bluetoothctl power off || bluetoothctl power on",
 
         "tooltip"  : false
 

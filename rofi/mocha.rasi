@@ -62,7 +62,7 @@ mainbox {
 inputbar {
   padding: 10px 14px;
   border-radius: 4px;
-  children: [ entry ];
+  children: [ prompt, entry ];
   background-color: #00000000;
 }
 
