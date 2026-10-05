@@ -5,8 +5,10 @@
 local terminal    = "kitty"
 local fileManager = "nautilus"
 local browser     = "brave"
-local launcher    = "~/.config/rofi/launcher/launcher.sh"
-local menu        = "~/.config/rofi/menu/menu.sh"
+
+local launcher    = "~/.config/rofi/favorites.sh"
+local energy      = "~/.config/rofi/menu/system/energy.sh"
+local menu        = "~/.config/rofi/menu.sh"
 
 -------- Shortcuts -------- > 
 
@@ -24,7 +26,7 @@ hl.bind(super .. " + ESCAPE", hl.dsp.exec_cmd(menu))     -- Open Menu
 
 hl.bind(screenshot .. "", hl.dsp.exec_cmd("hyprshot -m region -o ~/Imagens/$(screenshot.png)")) -- Screenshot
 
-hl.bind(super .. " + DELETE", hl.dsp.exec_cmd("~/.config/rofi/menu/system/energy.sh")) -- Lock Screen
+hl.bind(super .. " + DELETE", hl.dsp.exec_cmd(energy)) -- Lock Screen
 
 -- Volume and Brightness
 
