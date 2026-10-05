@@ -6,13 +6,14 @@ steam="$HOME/.config/rofi/icons/steam.png"
 code="$HOME/.config/rofi/icons/code.png"
 idea="$HOME/.config/rofi/icons/idea.png"
 minecraft="$HOME/.config/rofi/icons/minecraft.png"
+roblox="$HOME/.config/rofi/icons/roblox.png"
 
 option=$(
 
     # Add your favorites here, "Name\0icon\x1fPath_to_icon"
 
-    printf " Kitty\0icon\x1f%s\n Brave\0icon\x1f%s\n Steam\0icon\x1f%s\n VS Code\0icon\x1f%s\n IntelliJ IDEA\0icon\x1f%s\n Minecraft XMCL\0icon\x1f%s" \
-           "$kitty" "$brave" "$steam" "$code" "$idea" "$minecraft" |
+    printf " Kitty\0icon\x1f%s\n Brave\0icon\x1f%s\n Steam\0icon\x1f%s\n VS Code\0icon\x1f%s\n IntelliJ IDEA\0icon\x1f%s\n Minecraft XMCL\0icon\x1f%s\n Roblox\0icon\x1f%s" \
+           "$kitty" "$brave" "$steam" "$code" "$idea" "$minecraft" "$roblox" |
 
     rofi -dmenu -p "" -show-icons -theme ~/.config/rofi/mocha.rasi
 
@@ -26,6 +27,7 @@ case "$option" in
     " VS Code")        code;;
     " IntelliJ IDEA")  idea;;
     " Minecraft XMCL") xmcl;;
+    " Roblox")         roblox;;
 
 esac
 
