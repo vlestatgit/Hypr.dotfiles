@@ -32,6 +32,8 @@
         "format"   : "{}",
         "interval" : "once",
 
+        "on-click" : "$HOME/.config/rofi/menu.sh",
+
         "tooltip"  : false
 
     },
