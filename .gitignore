@@ -4,8 +4,10 @@
 
 !.gitignore
 
-!packages.txt
 !README.md
+
+!packages.txt
+!user-dirs.dirs
 
 !btop/
 !fastfetch/

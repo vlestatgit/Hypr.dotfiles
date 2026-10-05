@@ -59,9 +59,9 @@ window#waybar {
 
 #network,
 #bluetooth,
+#power-profiles-daemon,
 #pulseaudio,
 #backlight,
-#power-profiles-daemon,
 
 #battery {
 

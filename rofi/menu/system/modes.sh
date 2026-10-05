@@ -10,8 +10,9 @@ option=$(
 
 case "$option" in
 
-    "  Performance") hyprctl setoption general:power_profile performance;;
-    "  Balanced") hyprctl setoption general:power_profile balanced;;
-    "  Economic") hyprctl setoption general:power_profile economic;;
+    "  Performance") powerprofilesctl set performance;;
+    "  Balanced") powerprofilesctl set balanced;;
+    "  Economic") powerprofilesctl set power-saver;;
 
 esac
+

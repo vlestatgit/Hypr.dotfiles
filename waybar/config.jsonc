@@ -16,6 +16,7 @@
 
     "modules-right"  : [ // Right side modules
         
+        "power-profiles-daemon",
         "network",
         "bluetooth",
         "pulseaudio",
@@ -61,8 +62,24 @@
     "bluetooth" : {
 
 	    "format"           : "",
-	    "format-disabled"  : "",
-	    "format-connected" : " {num_connections} connected", // Remove "{num_connections} connected" to show only the icon
+	    "format-disabled"  : "󰂲",
+	    "format-connected" : "",
+
+        "tooltip"  : false
+
+    },
+
+    "power-profiles-daemon" : {
+
+        "format" : "{icon}",
+
+        "format-icons" : {
+            
+            "performance" : "",
+            "balanced"    : "",
+            "power-saver" : ""
+
+        },
 
         "tooltip"  : false
 
