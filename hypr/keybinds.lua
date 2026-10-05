@@ -4,8 +4,9 @@
 
 local terminal    = "kitty"
 local fileManager = "nautilus"
-local menu        = "rofi -show drun"
 local browser     = "brave"
+local launcher    = "~/.config/rofi/launcher/launcher.sh"
+local menu        = "~/.config/rofi/menu/menu.sh"
 
 -------- Shortcuts -------- > 
 
@@ -18,7 +19,8 @@ hl.bind(super .. " + C", hl.dsp.window.close()) -- Close Window
 hl.bind(super .. " + RETURN", hl.dsp.exec_cmd(terminal)) -- Open Terminal
 hl.bind(super .. " + E", hl.dsp.exec_cmd(fileManager))   -- Open File Manager
 hl.bind(super .. " + B", hl.dsp.exec_cmd(browser))       -- Open Browser
-hl.bind(super .. " + SPACE", hl.dsp.exec_cmd(menu))      -- Open Menu
+hl.bind(super .. " + SPACE", hl.dsp.exec_cmd(launcher))  -- Open Launcher
+hl.bind(super .. " + ESCAPE", hl.dsp.exec_cmd(menu))     -- Open Menu
 
 hl.bind(screenshot .. "", hl.dsp.exec_cmd("hyprshot -m region -o ~/Imagens/$(screenshot.png)")) -- Screenshot
 
