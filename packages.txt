@@ -25,6 +25,7 @@ hyprpaper
 kitty
 nautilus
 nwg-look
+power-profiles-daemon
 rofi
 snappy-switcher
 ttf-jetbrains-mono-nerd
