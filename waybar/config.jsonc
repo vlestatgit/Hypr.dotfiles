@@ -47,7 +47,13 @@
 
     },
 
-    "clock" : { "format" : "󰥔  {:%a %d %b  %H:%M}" }, // Your clock format
+    "clock" : {
+        
+        "format" : "󰥔  {:%a %d %b  %H:%M}",
+
+        "tooltip" : false
+        
+    }, // Your clock format
 
     "network" : {
 
