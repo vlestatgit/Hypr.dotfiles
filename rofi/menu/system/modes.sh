@@ -4,7 +4,7 @@ option=$(
     
     printf "  Performance\n  Balanced\n  Economic" | # Add your menu options here ("Option1\nOption2\nOption3...")
     
-    rofi -dmenu -p "" -theme ~/.config/rofi/mocha.rasi
+    rofi -dmenu -p "  " -theme ~/.config/rofi/mocha.rasi
     
 )
 
