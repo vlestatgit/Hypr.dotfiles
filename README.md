@@ -39,3 +39,5 @@ Check packages.txt to see more information
 ⠀⠀⠀⠀⠀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⣸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀
 ```
+<img width="1921" height="1080" alt="image" src="https://github.com/user-attachments/assets/c12d93ad-8375-4850-a509-7cb8916a8042" />
+
