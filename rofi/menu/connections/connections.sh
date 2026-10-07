@@ -14,3 +14,4 @@ case "$option" in
     "󰂯  Bluetooth") ~/.config/rofi/menu/connections/bluetooth.sh;;
 
 esac
+

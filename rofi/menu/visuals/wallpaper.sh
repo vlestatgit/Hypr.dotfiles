@@ -4,7 +4,7 @@ option=$(
     
     printf "  Storm\n  Waves\n  Cat\n  Window" | #Add your wallpapers here ("Option1\nOption2\nOption3...")
     
-    rofi -dmenu -p "" -theme ~/.config/rofi/mocha.rasi
+    rofi -dmenu -p "  " -theme ~/.config/rofi/mocha.rasi
     
 )
 
