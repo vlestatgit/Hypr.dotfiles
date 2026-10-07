@@ -39,6 +39,8 @@ Check packages.txt to see more information
 ⠀⠀⠀⠀⠀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⣸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀
 ```
-<img width="1921" height="1080" alt="image" src="https://github.com/user-attachments/assets/c12d93ad-8375-4850-a509-7cb8916a8042" />
 <img width="1919" height="1080" alt="image" src="https://github.com/user-attachments/assets/628ba60b-155c-4193-8199-b5baaef4ecb4" />
+<img width="1921" height="1080" alt="image" src="https://github.com/user-attachments/assets/c12d93ad-8375-4850-a509-7cb8916a8042" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/414db09a-4a85-443a-9c3f-0582d2f54834" />
+
 
