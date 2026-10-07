@@ -24,7 +24,14 @@ hl.monitor({
 
 hl.config({
 
-    input = { kb_layout  = "br", }, -- Your keyboard layout
+    input = {
+        
+        kb_layout  = "br", -- Your keyboard layout
+
+        accel_profile = flat,
+        sensitivity = 0,
+
+    },
 
     dwindle = { preserve_split = true, },
 
@@ -38,4 +45,6 @@ hl.config({
     },
 
 })
+
+
 
