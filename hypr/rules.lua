@@ -90,5 +90,3 @@ hl.layer_rule({
 
 -- Non translucent windows
 
-hl.window_rule({ match = { class = "brave" }, opacity = "1.0 override 1.0 override" })
-hl.window_rule({ match = { class = "steam" }, opacity = "1.0 override 1.0 override" })
