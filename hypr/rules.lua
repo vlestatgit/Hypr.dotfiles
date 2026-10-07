@@ -88,5 +88,12 @@ hl.layer_rule({
     
 })
 
--- Non translucent windows
+-------- Opacity -------- >
+
+hl.window_rule({
+    
+    match   = { class = "brave-browser" },
+    opacity = "1 override 1 override 1 override",
+
+})
 
