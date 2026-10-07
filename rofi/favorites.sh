@@ -34,4 +34,3 @@ case "$option" in
     " Roblox")         flatpak run org.vinegarhq.Sober;;
 
 esac
-
