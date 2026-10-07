@@ -38,6 +38,7 @@ hl.bind(fn .. " + down", hl.dsp.exec_cmd("BRG=$(brightnessctl -m | cut -d, -f4 |
 
 -------- Windows -------- > 
 
+hl.bind(super .. " + F", hl.dsp.window.fullscreen())
 hl.bind(super .. " + V", hl.dsp.window.float({ action = "toggle" })) -- Toggle Floating
 
 hl.bind(super .. " + mouse:272", hl.dsp.window.drag(),   { mouse = true }) -- Drag Window
