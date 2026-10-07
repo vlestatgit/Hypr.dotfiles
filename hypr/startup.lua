@@ -1,6 +1,6 @@
 ---------------- Hypr Startup ---------------- >
 
-local wallpaper = "~/.config/hyprpaper/wallpapers/waves.jpg"
+local wallpaper = "~/.config/hyprpaper/wallpapers/storm.jpg"
 
 hl.on("hyprland.start", function()
 
