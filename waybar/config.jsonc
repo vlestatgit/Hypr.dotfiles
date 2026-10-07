@@ -62,7 +62,8 @@
         "format-disconnected" : "󰤭",
         "format-disabled"     : "",
 
-        "on-click"       : "$HOME/.config/rofi/menu/connections/wifi.sh",
+        //"on-click"       : "$HOME/.config/rofi/menu/connections/wifi.sh",
+        "on-click"       : "kitty nmtui",
         "on-click-right" : "nmcli radio wifi | grep -q 'enabled' && nmcli radio wifi off || nmcli radio wifi on",
 
         "tooltip"  : false
@@ -75,7 +76,8 @@
         "format-off"       : "󰂲",
 	    "format-connected" : "",
 
-        "on-click"       : "$HOME/.config/rofi/menu/connections/bluetooth.sh",
+        //"on-click"       : "$HOME/.config/rofi/menu/connections/bluetooth.sh",
+        "on-click"       : "blueman-manager",
         "on-click-right" : "bluetoothctl show | grep -q 'Powered: yes' && bluetoothctl power off || bluetoothctl power on",
 
         "tooltip"  : false
