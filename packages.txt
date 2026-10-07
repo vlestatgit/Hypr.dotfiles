@@ -1,6 +1,5 @@
 ---------------- Packages ---------------- >
 
-
 For full compatibility with this setup i recommend to
 mark the following packages on the CachyOS intallation
 
@@ -17,13 +16,11 @@ Sorry about my english, i'm not a native :3
 
 -------- Manualy Installed -------- >
 
-brave-bin
 brightnessctl
 catppuccin-gtk-theme-mocha
-cava
-cmatrix-git
 hyprland
 hyprpaper
+hyprlock
 kitty
 nautilus
 nwg-look
@@ -31,7 +28,6 @@ power-profiles-daemon
 rofi
 snappy-switcher
 ttf-jetbrains-mono-nerd
-tty-clock
 waybar
 yaru-icon-theme
 yay
