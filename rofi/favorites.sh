@@ -1,5 +1,6 @@
 # ---------------- Rofi Menu ---------------- >
 
+kitty="$HOME/.config/rofi/icons/kitty.png"
 brave="$HOME/.config/rofi/icons/brave.png"
 discord="$HOME/.config/rofi/icons/discord.png"
 spotify="$HOME/.config/rofi/icons/spotify.png"
@@ -11,8 +12,8 @@ option=$(
 
     # Add your favorites here, "Name\0icon\x1fPath_to_icon"
 
-    printf " Brave\0icon\x1f%s\n Discord\0icon\x1f%s\n Spotify\0icon\x1f%s\n VS Code\0icon\x1f%s\n IntelliJ IDEA\0icon\x1f%s\n Jetbrains RIDER\0icon\x1f%s" \
-           "$brave" "$discord" "$spotify" "$code" "$idea" "$rider" |
+    printf " Kitty\0icon\x1f%s\n Brave\0icon\x1f%s\n Discord\0icon\x1f%s\n Spotify\0icon\x1f%s\n VS Code\0icon\x1f%s\n IntelliJ IDEA\0icon\x1f%s\n Jetbrains RIDER\0icon\x1f%s" \
+           "$kitty" "$brave" "$discord" "$spotify" "$code" "$idea" "$rider" |
 
     rofi -dmenu -p "  " -show-icons -theme ~/.config/rofi/mocha.rasi
 
@@ -20,6 +21,7 @@ option=$(
 
 case "$option" in
 
+    " Kitty")           kitty;;
     " Brave")           brave;;
     " Discord")         discord;;
     " Spotify")         spotify-launcher;;
